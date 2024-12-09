@@ -1,0 +1,392 @@
+/* Réinitialisation des marges */
+body, h1, h2, p, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* En-tête */
+.header {
+    padding: 20px 0;
+    background: rgba(20, 20, 50, 0.9);
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #ff4500;
+    text-shadow: 0 0 10px rgba(255, 69, 0, 0.7);
+}
+
+.header nav a {
+    color: #ff4500;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+}
+
+.header nav a:hover {
+    color: #e0e0e0;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+/* Sections */
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff4500;
+    text-shadow: 0 0 8px rgba(255, 69, 0, 0.6);
+}
+
+.section p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Galerie */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-container {
+    width: 45%;
+    background: rgba(20, 20, 40, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+/* Formulaire */
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(20, 20, 40, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.form input, .form textarea, .form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ff4500;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+}
+
+.form input:focus, .form textarea:focus {
+    border-color: #ff6347;
+    outline: none;
+    box-shadow: 0 0 10px #ff6347;
+}
+
+.form button {
+    background: #ff4500;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.form button:hover {
+    background: #ff6347;
+    box-shadow: 0 0 15px #ff6347;
+}
+
+/* Pied de page */
+.footer {
+    padding: 20px;
+    background: rgba(20, 20, 50, 0.9);
+    color: #e0e0e0;
+    font-size: 0.9rem;
+}
+/* Réinitialisation des marges */
+body, h1, p, label, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    background: linear-gradient(135deg, #5d1a1a, #872e2e);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* En-tête */
+.header {
+    padding: 20px 0;
+    background: rgba(93, 26, 26, 0.9);
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #ff5722;
+    text-shadow: 0 0 10px rgba(255, 87, 34, 0.7);
+}
+
+/* Section Quiz */
+.quiz-section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.quiz-section p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.quiz-section .question {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.quiz-section label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.quiz-section input[type="radio"] {
+    margin-left: 10px;
+}
+
+.quiz-section button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.quiz-section button:hover {
+    background: #ff8a50;
+}
+
+/* Pied de page */
+.footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background: rgba(93, 26, 26, 0.9);
+    font-size: 0.9rem;
+}
+/* Réinitialisation des marges */
+body, h1, p, label, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    background: linear-gradient(135deg, #5d1a1a, #872e2e);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* En-tête */
+.header {
+    padding: 20px 0;
+    background: rgba(93, 26, 26, 0.9);
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #ff5722;
+    text-shadow: 0 0 10px rgba(255, 87, 34, 0.7);
+}
+
+/* Section Quiz */
+.quiz-section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.quiz-section p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.quiz-section .question {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.quiz-section label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.quiz-section input[type="radio"] {
+    margin-left: 10px;
+}
+
+.quiz-section button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.quiz-section button:hover {
+    background: #ff8a50;
+}
+
+/* Pied de page */
+.footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background: rgba(93, 26, 26, 0.9);
+    font-size: 0.9rem;
+}
+/* Réinitialisation des marges */
+body, h1, p, label, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    background: linear-gradient(135deg, #5d1a1a, #872e2e);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* En-tête */
+.header {
+    padding: 20px 0;
+    background: rgba(93, 26, 26, 0.9);
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #ff5722;
+    text-shadow: 0 0 10px rgba(255, 87, 34, 0.7);
+}
+
+/* Section Quiz */
+.quiz-section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.quiz-section p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.quiz-section .question {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.quiz-section label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.quiz-section input[type="radio"] {
+    margin-left: 10px;
+}
+
+.quiz-section button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.quiz-section button:hover {
+    background: #ff8a50;
+}
+
+/* Pied de page */
+.footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background: rgba(93, 26, 26, 0.9);
+    font-size: 0.9rem;
+}
